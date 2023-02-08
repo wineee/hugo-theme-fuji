@@ -3,7 +3,7 @@
 Fuji is a minimal Hugo theme with full dark mode support and GitHub Primer markdown style.
 
 ![GitHub release](https://img.shields.io/github/v/release/dsrkafuu/hugo-theme-fuji)
-![GitHub build status](https://img.shields.io/github/workflow/status/dsrkafuu/hugo-theme-fuji/build-test)
+![GitHub build status](https://img.shields.io/github/workflow/status/dsrkafuu/hugo-theme-fuji/pages)
 ![GitHub license](https://img.shields.io/github/license/dsrkafuu/hugo-theme-fuji)
 
 [English](https://github.com/dsrkafuu/hugo-theme-fuji#readme) | [简体中文](https://github.com/dsrkafuu/hugo-theme-fuji/blob/master/README_CN.md)
@@ -20,20 +20,20 @@ Supported languages: `cs`, `de`, `en`, `eo`, `fr`, `ja`, `nl`, `pl`, `pt-pt`, `z
 - [🆕 Update the theme](#-update-the-theme)
 - [⚙️ Configuration](#%EF%B8%8F-configuration)
   - [🎨 Favicon](#-favicon)
-  - [❌ License, toc und comments](#-license-toc-und-comments)
+  - [❌ License, toc and comments](#-license-toc-and-comments)
   - [🎵 APlayer](#-aplayer)
   - [📐 Render LaTeX with KaTex](#-render-latex-with-katex)
   - [📷 Image zoom and lazyload settings](#-image-zoom-and-lazyload-settings)
   - [⚓ Markdown render hook](#-markdown-render-hook)
   - [📨 Comments area](#-comments-area)
   - [🔧 Custom stylesheet configuration](#-custom-stylesheet-configuration)
-- [✏️ Issue und contributing](#%EF%B8%8F-issue-und-contributing)
+- [✏️ Issue and contributing](#%EF%B8%8F-issue-and-contributing)
 - [📝 License](#-license)
 - [🤝 Annotations](#-annotations)
 
 ## 💻 Live demos
 
-[**Live Demo (gohugo.io)**](https://themes.gohugo.io/theme/hugo-theme-fuji/)
+[**Live Demo (GitHub Pages)**](https://github.dsrkafuu.net/hugo-theme-fuji/)
 
 ![Screenshot of Fuji](https://raw.githubusercontent.com/dsrkafuu/hugo-theme-fuji/master/images/screenshot.png)
 
@@ -46,7 +46,7 @@ Remember to add [summary divider](https://gohugo.io/content-management/summaries
 Inside the folder of your Hugo site run:
 
 ```bash
-git submodule add https://github.com/amzrk2/hugo-theme-fuji.git themes/fuji
+git submodule add https://github.com/dsrkafuu/hugo-theme-fuji.git themes/fuji
 ```
 
 For more information read the official [setup guide](https://gohugo.io/overview/installing/) of Hugo.
@@ -71,7 +71,7 @@ Create `[SITEROOT]/layouts/partials/favicon.html` to cover theme's favicon.
 
 You can generate your favicons in [realfavicongenerator.net](https://realfavicongenerator.net/).
 
-### ❌ License, toc und comments
+### ❌ License, toc and comments
 
 Globally in `config.toml`:
 
@@ -246,7 +246,7 @@ $dark-color-codebg: #414449; // GitHub
 
 To override SCSS rules, create `[SITEROOT]/assets/scss/_custom_rules.scss`. This file will have priority over anything regarding CSS rules, but is useless for changing variables that are used elsewhere in the theme.
 
-## ✏️ Issue und contributing
+## ✏️ Issue and contributing
 
 Feel free to use the [issue tracker](https://github.com/dsrkafuu/hugo-theme-fuji/issues). The theme has only been fully tested on Firefox, so if there are some problems when accessing with Chrome or others please also report an issue.
 
@@ -263,7 +263,7 @@ The theme is released under the `Apache License 2.0`, for more information read 
 - [cloudflare-workers-async-google-analytics - MIT](https://github.com/SukkaW/cloudflare-workers-async-google-analytics/blob/master/LICENSE)
 - [art-template - MIT](https://github.com/aui/art-template/blob/master/LICENSE)
 
-**Copyright © 2019-present DSRKafuU <https://dsrkafuu.su/>**
+**Copyright © 2019-present DSRKafuU <https://dsrkafuu.net/>**
 
 ## 🤝 Annotations
 
