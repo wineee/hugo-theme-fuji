@@ -60,6 +60,10 @@ showLicenseInFooter = false
 showLicense = true
 showToc = true
 
+# Configure what is shown in posts
+showPostLinks = false
+showPostTags = false
+
 # Copyright
 copyrightStartYear = "2020"
 
