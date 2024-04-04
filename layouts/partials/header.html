@@ -1,10 +1,14 @@
 <header>
+    {{- if or .Site.Params.showPageHeader (not .IsPage) -}}
     <div class="container-lg clearfix">
         <div class="col-12 header">
-            <a class="title-main" href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>
+            <h1 class="title-main">
+              <a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>
+            </h1>
             {{ with .Site.Params.subTitle }}
             <span class="title-sub">{{ . }}</span>
             {{ end }}
         </div>
     </div>
-</header>
+    {{ end }}
+  </header>
