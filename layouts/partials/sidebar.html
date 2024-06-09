@@ -32,7 +32,7 @@
                 {{ range .Site.Taxonomies.tags }}
                 <span>
                     <li>
-                        <a href="{{ .Page.RelPermalink }}">{{ .Page.Title }}</a>
+                        <a href="{{ .Page.RelPermalink }}">{{ lower .Page.Title }}</a>
                     </li>
                 </span>
                 {{ end }}
